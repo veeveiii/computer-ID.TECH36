@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<!-- การเขียน Code ในส่วนนี้เป็นส่วนของที่สี่ ในที่นี้กำหนดให้เป็นหน้า About us คือหน้าที่มีเนื้อหาเกี่ยวกับประวัติส่วนตัวของผู้สร้างเว็บไซต์ -->
+
+<html>
+    <head>
+        <Title>My Curriculum vitea</Title>
+        <!-- ตั้งหัวข้อไตเติล ที่จะให้แสดงใน Tab ด้านบน เมื่อทำการเปิดเว็บไซต์ ในหน้านี้ตั้งเป็น My Curriculum vitea  -->
+        <meta charset="utf-8">
+        <!-- ทำการกำหนดรูปแบบข้อมูลเป็น charset="utf-8"-->
+        <meta name="viewport" content="width=device-width, initail-scale=1.0" />
+         <!-- ทำการกำหนดรูปแบบข้อมูลเป็น charset="utf-8" และ ทำการกำหนด scale ของการแสดงผลในอุปกรณ์ต่างๆให้มี ขนาดเท่ากับ 1 -->
+        <link rel="stylesheet" href="Css/CvCss.css">
+        <!--ทำการลิงค์กับ Css เพื่อดีไซน์หรือกำหนดรูปแบบต่างๆของโครงสร้างใน HTML นี้ -->
+    </head>
+    
+    <body>
+        
+        <div id="Container">
+        <!--กำหนดไอดี container ที่ครอบคลุมทุกส่วนภายใต้นี้ เพื่อที่จะได้กำนดลักษณะต่างๆได้ง่าย และชัดเจนยิ่งขึ้นใน css ต่อไป -->
+        <header id="header">
+            <img src="picture/ABOUT%20ME%20(1).png" width="100%">
+        </header>
+        <!--ทำการกำหนดส่วนหัวของเว็บไซต์ โดยในที่นี้ใช้รูปภาพที่ บ่งบอกถึงเว็บไซต์โดยตรง เพื่อให้เกิดความสวยงามนั่นเอง-->
+        
+         <div class="nav" id="navhamburger">
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="index.html">Home</a>
+            <a href="Page2Style.html">Life style</a>
+            <a href="Page3Shop.html">Shopping</a>
+            <a href="Page4CV.html">About us</a>
+        </div>
+        <!-- เป็นการกำหนด แท็ปเมนูต่างๆ เพื่อที่จะสามารถเข้าถึงเว็บแต่ละหน้าผ่านทางแท็ปนี้ได้ โดยกำหนดให้มี 4 ส่วน คือ 1. Home เชื่อมกับหน้าแรก 2.style เชื่อมกับหน้าที่สอง 3. shop เชื่อมกับหน้าสาม และ 4.about us เชื่อมกับหน้าที่สี่ -->
+            
+        <div id="about">
+            <img src="picture/Coverveeveiii.png" width="100%">
+        </div>
+            <!-- สร้าง div ขึ้นมา และมีส่วนรูปภาพอยู่ภายใน มีการกำหนดไอดี เพื่อให้การกำหนดรูปแบบต่างๆง่ายยิ่งขึ้น รูปภาพนี้จะอยู่ใต้ แท็ปเมนู -->
+            
+            
+            <!-- เราจะทำการใส่เนื้อหา และรายละเอียดลงไปในด้านล่างนี้ ในส่วนของ Section  โดยในเว็บหน้านี้ ในส่วนของเนื้อหาเราทำการแบ่งเป็นส่วน 2 คือ section 35% โดยประมาณอยู่ทางฝั่งซ้าย และ Aside 65% โดยประมาณอยู่ทางฝั่งขวา -->
+        <section id="section">
+            <article id="article">
+            <div id="pic1">
+            
+            <img src="picture/img4545.png" / width="100%">
+            <h1>Hello guys</h1>
+            <h4>I am muslim student</h4>
+            <p>NAME : Ailada Samingkaew <br><br>
+               AGE : 21 Years old<br><br>
+               E-MAIL : Sawavee08@gmail.com<br><br>
+               PHONE : 095-797-4555<br><br>----------------------------------------------<br></p>
+           
+            </div>
+            </article>
+            
+        </section>
+        
+        <!-- เนื้อหา ภายใน section นี้ จะมีส่วนของรูปภาพ และรายละเอียดประวัติส่วนตัวคร่าวๆ ที่เป็นตัวอักษร -->
+            
+        <aside id="aside">
+            
+            <div id="adiv3">
+                <a href="picture/My%20Edu.png">
+                    <img src="picture/Edu.JPG" / width="50%">
+                    <p>My Education</p></a>
+                <a href="picture/expe%20(2).png">
+                    <img src="picture/experien.png" / width="50%">
+                    <p>My Experience</p>
+                </a>
+                <a href="picture/ct1.png">
+                    <img src="picture/Contact1.png" / width="50%">
+                    <p>Contact us<br><br></p>
+                </a>
+            </div>
+        
+        </aside>
+        <!-- เนื้อหาภายใน aside นี้มีรูปภาพ และ ตัวอักษร แต่จะเน้นไปที่รูปภาพเป็นส่วนมาก ใช้ตัวอักษรและรูปภาพในการลิ้งค์ข้อมูลรูปภาพด้วยเช่นกัน -->
+        
+       <footer>
+        <hr>
+            <img src="picture/Viivizz%20glasses.png" / width="100%" >
+        </footer>
+       <!-- ส่วนท้ายหรือส่วนล่างสุดของเว็บไซต์ -->
+        </div>
+        
+        <script src="Js/homeJs.js"></script>
+         <!--ทำการลิงค์กับJavascript เพื่อกำหนดการกระทำต่างๆหรือกำหนดรูปแบบต่างๆให้กระทำใดๆของโครงสร้างใน HTML นี้ -->
+    </body>
+</html>
